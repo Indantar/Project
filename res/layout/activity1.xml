@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                android:id="@+id/room1"
+                android:clickable="true">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 1"
+            android:id="@+id/textView2" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:width="250dp" android:textSize="30dp" android:textColor="#999999"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lights"
+            android:id="@+id/textView3" android:layout_below="@+id/textView2" android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp" android:textColor="#999999" android:width="130dp" android:textSize="30dp"/>
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lights"
+            android:id="@+id/toggleButton" android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentEnd="true" android:checked="false" android:width="175dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:id="@+id/textView4" android:layout_below="@+id/textView3" android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp" android:width="145dp" android:textSize="25dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="35 * C"
+            android:id="@+id/textView5"
+            android:width="130dp"
+            android:textSize="25dp" android:layout_alignTop="@+id/textView4" android:layout_alignParentEnd="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Door"
+            android:id="@+id/textView6" android:layout_centerVertical="true" android:layout_alignParentStart="true"
+            android:width="130dp" android:textSize="30dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open"
+            android:id="@+id/textView7" android:layout_alignBottom="@+id/textView6"
+            android:layout_alignParentEnd="true" android:width="130dp" android:textSize="30dp"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Menu"
+            android:id="@+id/btnMainMenu" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+            android:width="170dp" android:textSize="25dp"
+            android:onClick="goToMain"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room2"
+            android:id="@+id/btnRoom2" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+            android:width="170dp" android:textSize="25dp"
+            android:onClick="goToRoom2"
+    />
+</RelativeLayout>

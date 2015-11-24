@@ -23,9 +23,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lights"
-            android:id="@+id/toggleButton" android:layout_alignBottom="@+id/textView3"
-            android:layout_alignParentEnd="false" android:checked="false" android:width="175dp"
-            android:background="#999999"/>
+            android:id="@+id/toggleButton"
+            android:checked="false" android:width="175dp"
+            android:background="#999999" android:layout_above="@+id/textView4"
+            android:layout_alignStart="@+id/btnRoom2"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

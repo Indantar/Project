@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="Room 1"
             android:id="@+id/btnRoom1" android:layout_below="@+id/textView" android:layout_alignParentStart="true"
-            android:layout_marginTop="60dp" android:width="200dp" android:background="#990000"
+            android:layout_marginTop="60dp" android:width="200dp" android:background="#999999"
             android:onClick="room1"
     />
     <Button
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="Room 2"
             android:id="@+id/btnRoom2" android:layout_centerVertical="true" android:layout_alignParentStart="true"
-            android:background="#990000" android:width="200dp"
+            android:background="#999999" android:width="200dp"
             android:onClick="room2"
     />
 </RelativeLayout>

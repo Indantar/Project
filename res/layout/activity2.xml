@@ -24,7 +24,8 @@
             android:layout_height="wrap_content"
             android:text="Lights"
             android:id="@+id/toggleButton" android:layout_alignBottom="@+id/textView3"
-            android:layout_alignParentEnd="true" android:checked="true" android:width="175dp"/>
+            android:layout_alignParentEnd="true" android:checked="true" android:width="175dp"
+            android:background="#999999"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +60,7 @@
             android:id="@+id/btnMainMenu" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
             android:width="170dp" android:textSize="25dp"
             android:onClick="goToMain"
-    />
+            android:background="#999999"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,5 +68,5 @@
             android:id="@+id/btnRoom1" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
             android:width="170dp" android:textSize="25dp"
             android:onClick="goToRoom1"
-    />
+            android:background="#999999"/>
 </RelativeLayout>

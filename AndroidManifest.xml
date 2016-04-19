@@ -11,6 +11,5 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity1"/>
-        <activity android:name=".activity2"/>
     </application>
 </manifest>
